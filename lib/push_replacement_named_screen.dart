@@ -12,7 +12,7 @@ class PushReplacementNamedScreen extends StatelessWidget {
           onPressed: () {
             Navigator.pushReplacementNamed(context, '/new_screen');
           },
-          child: Text('Перейти на новый экран с заменой предыдущего (именованный)'),
+          child: Text('Перейти на новый экран '),
         ),
       ),
     );
