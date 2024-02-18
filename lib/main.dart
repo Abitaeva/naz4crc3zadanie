@@ -65,7 +65,7 @@ class FirstScreen extends StatelessWidget {
                   ),
                 );
               },
-              child: Text('Перейти и удалить все экраны до нового (Push and Remove Until)'),
+              child: Text(' (Push and Remove Until)'),
             ),
             ElevatedButton(
               onPressed: () {
@@ -76,13 +76,13 @@ class FirstScreen extends StatelessWidget {
                   ),
                 );
               },
-              child: Text('Перейти на новый экран с заменой предыдущего (Push Replacement)'),
+              child: Text(' (Push Replacement)'),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushReplacementNamed(context, '/new_screen');
               },
-              child: Text('Перейти на новый экран с заменой предыдущего (Push Replacement Named)'),
+              child: Text(' (Push Replacement Named)'),
             ),
           ],
         ),
