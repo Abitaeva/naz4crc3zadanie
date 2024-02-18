@@ -5,7 +5,7 @@ class PushReplacementScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Новый экран (Push Replacement)'),
+        title: Text(' (Push Replacement)'),
       ),
       body: Center(
         child: ElevatedButton(
@@ -17,7 +17,7 @@ class PushReplacementScreen extends StatelessWidget {
               ),
             );
           },
-          child: Text('Перейти на новый экран с заменой предыдущего'),
+          child: Text('Перейти на новый экран'),
         ),
       ),
     );
