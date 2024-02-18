@@ -5,7 +5,7 @@ class PushScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Новый экран (Push)'),
+        title: Text('(Push)'),
       ),
       body: Center(
         child: ElevatedButton(
